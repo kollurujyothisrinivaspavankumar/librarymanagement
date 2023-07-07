@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrationform</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="form-title">Registration</h1>
+        <form action="register.php" method="post">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label>Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter Full Name" required>
+                </div>
+
+                <div class="user-input-box">
+                    <label> UserName</label>
+                    <input type="text" id="UserName" name="UserName" placeholder="Enter UserName" required>
+                </div>
+
+                <div class="user-input-box">
+                    <label>Email</label>
+                    <input type="email" id="email" name="Email" placeholder="Enter Email Address" required>
+                </div>
+
+                <div class="user-input-box">
+                    <label>Phone number</label>
+                    <input type="number " id="Phone number " name="Phone number " placeholder="Enter Phone number " required>
+                </div>
+
+                <div class="user-input-box ">
+                    <label>Password</label>
+                    <input type="password" id="password " name="password " placeholder="Enter Password " required>
+                </div>
+
+                <div class="user-input-box ">
+                    <label>Confirm Password</label>
+                    <input type="password" id="confirmpassword " name="confirmpassword " placeholder="Confirm Password " required>
+                </div>
+            </div>
+            <div class="gender-details-box ">
+                <div class="gender-title ">
+                    <div class="gender-category">
+                        <label>Gender</label>
+                        <input type="radio" name="gender " id="male " required>Male
+
+                        <input type="radio" name="gender " id="female ">Female
+
+                        <input type="radio" name="gender " id="other ">Other
+                    </div>
+                </div>
+                <div class="form-submit ">
+                    <a href="loginpage.html">Register</a>
+                </div><br>
+                <p>Already have an account <a href="loginpage.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
